@@ -35,9 +35,9 @@ use external_value;
 require_once($CFG->libdir.'/externallib.php');
 
 /**
- * Trait implementing the external function block_todo_add_item.
+ * Class implementing the external function block_todo_add_item.
  */
-trait add_item {
+class add_item extends \external_api {
 
     /**
      * Describes the structure of parameters for the function.

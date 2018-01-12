@@ -38,7 +38,7 @@ require_once($CFG->libdir.'/externallib.php');
 /**
  * Trait implementing the external function block_todo_delete_item.
  */
-trait delete_item {
+class delete_item extends \external_api {
 
     /**
      * Describes the structure of parameters for the function.

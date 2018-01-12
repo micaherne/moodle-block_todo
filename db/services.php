@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $functions = [
     'block_todo_add_item' => [
-        'classname' => 'block_todo\external\api',
+        'classname' => 'block_todo\external\add_item',
         'methodname' => 'add_item',
         'classpath' => '',
         'description' => 'Adds a new item to the user\'s todo list',
@@ -38,7 +38,7 @@ $functions = [
     ],
 
     'block_todo_toggle_item' => [
-        'classname' => 'block_todo\external\api',
+        'classname' => 'block_todo\external\toggle_item',
         'methodname' => 'toggle_item',
         'classpath' => '',
         'description' => 'Toggles the done status of the given item',
@@ -49,7 +49,7 @@ $functions = [
     ],
 
     'block_todo_delete_item' => [
-        'classname' => 'block_todo\external\api',
+        'classname' => 'block_todo\external\delete_item',
         'methodname' => 'delete_item',
         'classpath' => '',
         'description' => 'Removes the given item from the todo list',

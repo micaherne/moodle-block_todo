@@ -38,7 +38,7 @@ require_once($CFG->libdir.'/externallib.php');
 /**
  * Trait implementing the external function block_todo_toggle_item.
  */
-trait toggle_item {
+class toggle_item extends \external_api {
 
     /**
      * Describes the structure of parameters for the function.
